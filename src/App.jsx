@@ -13,7 +13,7 @@ const App = () => {
         <Route path="/add" element={<Addblog />} />
       </Routes>
     </Router>
-  );
+  ); 
 };
 
 export default App;

@@ -2,9 +2,14 @@ import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Addblog from './pages/Addblog';
+
 
 const App = () => {
+  // In server.js or routes/userRoutes.js
+app.get('/users/login', (req, res) => {
+  res.send("Login page is working");
+});
+
   return (
     <>
       <Navbar />
